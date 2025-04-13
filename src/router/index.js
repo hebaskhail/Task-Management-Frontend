@@ -13,6 +13,8 @@ const routes = [
         path: '/tasks',
         name: 'Tasks',
         component: TaskPage,
+        meta: { requiresAuth: true }
+
     }
 ];
 const router = createRouter({
